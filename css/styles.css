@@ -1,12 +1,60 @@
 /*Mason Rossi 2880770*/
-body{
+body {
     font: normal normal normal 12px/1.5 Verdana, Arial, helvetica, sans-serif;
     height: 100vh;
     width: 100vw;
     background-color: hsla(200, 45%, 81%, 0.7);
 }
-h2{
-    color: yellow;
+
+h2 {
+    color: rgb(156, 156, 0);
     font-size: 20px;
-    
+
+}
+
+header {
+    background-color: hsl(300, 50%, 50%);
+}
+
+main {
+    float: left;
+    width: 65vw;
+    background-color: hsl(133, 100%, 68%);
+    height: 60vh;
+
+}
+
+aside {
+    float: right;
+    width: 25vw;
+    background-color: hsl(76, 91%, 59%);
+    height: 60vh;
+}
+
+footer {
+    clear: both;
+    background-color: hsl(251, 41%, 32%);
+
+}
+
+.structural {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#para1 {
+    color: rgb(219, 60, 7);
+}
+
+#para2 {
+    color: rgb(17, 2, 85);
+}
+
+a:hover {
+    color: #f09;
+}
+
+footer p {
+    font-size: .75em;
 }
